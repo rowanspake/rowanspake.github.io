@@ -85,7 +85,7 @@ footer {
 /*** NAVBAR STYLING ***/
 .navbar{
     overflow: hidden;
-    background-color: none ;
+    background-color: rgba(26,30,32,0.5);
     position: fixed;
     top: 0;
     width: 100%;
@@ -112,6 +112,7 @@ footer {
     position: relative; 
     -webkit-animation: moveNavText 5.75s;
     animation: moveNavText 5.75s;
+
 }
 
 @keyframes moveNavText {
@@ -142,10 +143,10 @@ footer {
 #typing_video {
     position: fixed;
     right: 0;
-    bottom: 1;
+    bottom: 45%;
     min-width: 100%;
     z-index: -1;
-    zoom: 50%;
+    zoom: 70%;
 }
 
 /* Screens that are 576px and smaller will not display the background video */
