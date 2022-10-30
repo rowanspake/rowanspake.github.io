@@ -394,7 +394,9 @@ button:hover {
 
 /***** Slideshow Styling *****/
 
-
+#Slideshow {
+    margin-bottom: 1vh;
+}
 
 #Slideshow_Background {
     background: rgb(66, 76, 81); /* This creates a slightly transparent white background that's palced over the video in the background */    
