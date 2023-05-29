@@ -245,7 +245,12 @@ video {
     height: 400px;
     background-color: rgb(255, 250, 239);
     border-radius:16px;
-    
+    text-align:center;
+}
+
+.aboutList {
+    display: inline-block;
+    text-align: left;
 }
 
 .column_1 p {
