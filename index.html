@@ -6,9 +6,16 @@
         <title>Rowan Spake, Software Developer</title>
         <link rel="shortcut icon" type="img/x-icon" href="media/images/favicon_io/favicon.ico">
         <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-        <script src="portfolio.js" defer></script>
+        <script>
+            if (screen && screen.width > 990) {
+            document.write('<script type="text/javascript" src="portfolio-desktop.js" defer><\/script>');
+            }
+            else {
+            document.write('<script type="text/javascript" src="portfolio-mobile.js" defer><\/script>');
+            }
+        </script>
         
-    </head>
+    </head> 
 
     <body class="background">
 
@@ -113,7 +120,7 @@
                 <h1>GitHub</h1>
                 <p>Check out my GitHub profile here: 
                     <br>
-                    <p class="center"><a href="https://github.com/rowanspake/" target="_blank">github.com/rowanspake</a></p>
+                    <p class="center"><a href="https://github.com/rowanspake/" target="_blank">rowanspake</a></p>
                 </p>
             </div>
             <!-- right column -->

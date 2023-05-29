@@ -36,6 +36,7 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active"; //adds active styling to the dot associated with the image
 }
 
+
 //this code will close the contact form when the user clicks off of it
 //first we add an event listener for any clicks on the site
 document.addEventListener("click",  function(event){
